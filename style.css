@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar {
+						/* no need for width because it is auto after giving height */
+	background-color: black;
+}
+
+.green {
+	margin: 0 auto;
+	width: 500px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+	align-items: center;
+}
+
+.green ul {
+	color: white;
+	list-style: none;
+	align-items: center;
+	display: flex;
+}
+
+li {
+	margin-right: 15px;
+}
+
+.btnclass {
+	height: 20px;
+	color: white;
+	padding: 0px 15px;
+	border-style: none;
+	border-radius: 3px;
+	background-color: teal;
+}
+
+.main {
+	margin: 0 auto;
+	height: 800px;
+	width: 500px;
+	display: flex;
+}
+
+.columnleft {
+	margin-right: 25px;
+	flex: 2;
+}
+
+.columnright {
+	flex: 1;
+}
+
+.pink {
+	margin-top: 25px;
+	background-color: pink;
+}
+
+.profilepic {
+	height: 50px;
+	margin-top: -45px;
+	margin-left: 15px;
+}
+
+.purple {
+	margin-top: 25px;
+	background-color: rebeccapurple;
+}
+
+.banner {
+	height: 60px;
+	background-color: teal;
+}
+
+.content {
+	background-color: white;
+	display: flex-box;
+	border: 3px solid gray;
+	border-top: none;
+	padding: 10px;
+}
+
+.iconsize {
+	height: 20px;
+	margin-right: 5px;
+}
+
+.settings {
+	display: flex;
+}
+
+.boxtop {
+	height: 50px;
+	padding-left: 15px;
+	color: white;
+	background-color: rgb(36, 36, 36);
+	display: flex;
+	align-items: center;
+}
+
+.purple h3 {
+	padding: 15px;
+}
+
+.requests {
+	height: 20px;
+	width: 25px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 3px;
+	margin-right: 15px;
+}
+
+.connections {
+	height: 20px;
+	width: 25px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 3px;
+	margin-right: 15px
+}
+
+.connection1 {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.boxbody {
+	background-color: white;
+	border: 3px solid gray;
+	padding: 10px;
+}
+
+.boxbody img {
+	height: 40px;
+}
+
+.boxbody h5 {
+	color: rgb(71, 71, 71);
+}
+
+.boxbody p {
+	margin: 5px 0px;
+}
+
+.more {
+	border-top: 3px solid gray;
+}
